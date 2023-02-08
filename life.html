@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BUT Informatique</title>
+  <link rel="stylesheet" href="css/positionLife.css">
+</head>
+<body>
+  <header>
+    <h1>BUT INFORMATIQUE</h1>
+  </header>
+  <nav id="navbar">
+    <ul>
+      <li><a href="./intro.html">Introduction BUT Info</a></li>
+      <li><a href="./subject.html">What Subjects ?</a></li>
+      <li><a href="./life.html">Student Life</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 IT Subjects</p>
+  </footer>
+  <script>
+    window.onscroll = function()
+    {myFunction()};
+    var navbar =
+    document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>
