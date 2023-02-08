@@ -44,8 +44,8 @@ nav a {
   padding: 1vh;
 }
 
-nav a:hover,
-nav a:active {
+nav li:hover,
+nav li:active {
   background-color: #FF06B7;
   color: #FCFFE7;
 }
