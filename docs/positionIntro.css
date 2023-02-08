@@ -1,7 +1,8 @@
 body {
     font-family: "Open Sans", Arial, sans-serif;
+    font-size: 2vh;
     margin: 0;
-    padding: 0;
+    
     background-color: #FCFFE7;
   }
   
@@ -40,6 +41,7 @@ nav a {
   display: block;
   padding: 5px;
   text-decoration: none;
+  padding: 1vh;
 }
 
 nav a:hover,
@@ -76,6 +78,7 @@ h2{
 main{
   color: #2B3467;
   padding: 1em;
+  padding: 1vh;
 }
 
 
